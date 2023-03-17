@@ -34,17 +34,40 @@ li a:hover {
     justify-content: center;
 }
 .info {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
     width: 90%;
     height: 50%;
     margin-bottom: 5%;
     background-color: white;
+
+}
+.info-first {
+    display: flex;
+    margin-top:3%;
+    margin-bottom: 5%;
+    flex-flow: column wrap;
+    align-items: center;
 }
 .rectangles-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 10px; /* ajusta el margen superior según sea necesario */
-  }
-  .info{
-    border-style: solid;
+}
+.info{
+    justify-items: center;
+}
+
+.logo_images{
+    display: flex;
+    width: 7%;
+    max-height: 80px; 
+}
+.image_2{
+    width: 100%; 
+    height: 100%;
+}
+.logo_images a + a {
+    margin-left: 10px;
   }
