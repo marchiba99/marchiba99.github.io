@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 90%;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+}
+
+.container{
+    position: relative; /* o absolute */
+    justify-content: center;
+}
+.info {
+    width: 90%;
+    height: 50%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+.rectangles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px; /* ajusta el margen superior según sea necesario */
+  }
+  .info{
+    border-style: solid;
+  }
