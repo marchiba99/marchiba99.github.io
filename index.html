@@ -1,69 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <title>Portfolio Marc Hidalgo</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-
-    <script src="js/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Nombre Apellido</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Nombre Apellido</h1>
+        <nav>
+          <ul>
+            <li><a href="#about_me">Sobre mí</a></li>
+            <li><a href="#career">Carrera</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <header></header>
+    <main>
+      <section id="about_me">
+        <h2>Sobre mí</h2>
+        <p>
+          Mi nombre es Nombre Apellido, y soy un programador con experiencia en
+          lenguajes como HTML, CSS, JavaScript, y Python. Me apasiona la
+          tecnología y el desarrollo de software, y siempre estoy buscando
+          aprender nuevas herramientas y técnicas para mejorar mis habilidades.
+        </p>
+        <p>
+          En mi tiempo libre, disfruto de participar en proyectos de código
+          abierto y contribuir a la comunidad de programación.
+        </p>
+      </section>
 
-  <body style="background-color: #c9286b">
-    <div class="container">
-      <div class="navbar">
+      <section id="career">
+        <h2>Carrera</h2>
+        <p>
+          Aquí iría información sobre tu carrera profesional como programador.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Habilidades</h2>
         <ul>
-          <li>
-            <a class="active" href="#about"><p>Sobre mi</p></a>
-          </li>
-          <li>
-            <a class="active" href="#carrer"><p>Experiencia y estudios</p></a>
-          </li>
-          <li>
-            <a class="active" href="#skill"><p>Habilidades</p></a>
-          </li>
-          <li style="float: right">
-            <a class="active" href="#contact"><p>Contacto</p></a>
-          </li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Git</li>
+          <li>Diseño responsive</li>
+          <li>Desarrollo web</li>
+          <li>Entre otras habilidades</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="rectangles-container">
-        <div class="info-first" id="home">
-          <h1>Marc hidalgo</h1>
-          <h2>Full stack developer</h2>
-          <div class="logo_images">
-            <a
-              href="https://www.linkedin.com/in/marc-hidalgo-baena-1037b914b/?originalSubdomain=es"
-            >
-              <img src="img/linkedin.png" />
-            </a>
-            <a href="https://github.com/marchiba99">
-              <img src="img/git.png" />
-            </a>
-          </div>
-        </div>
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form action="js/send-email.php" method="post">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
 
-        <div class="info" id="about">
-          <h1>Sobre mi</h1>
-        </div>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
 
-        <div class="info" id="carrer">
-          <h1>Experiencia y estudios</h1>
-        </div>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
 
-        <div class="info" id="skill">
-          <h1>Habilidades</h1>
-        </div>
-
-        <div class="info" id="contact">
-          <h1>contacto</h1>
-        </div>
-      </div>
-    </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
