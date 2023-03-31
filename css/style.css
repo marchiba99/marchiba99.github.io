@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: beige;
+  font-family: Tahoma, sans-serif;
 }
 
 header {
@@ -55,9 +56,49 @@ section h2 {
   margin-top: 0;
 }
 
+#studies p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#studies p span {
+  font-weight: normal;
+}
+
+#experience p span:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#experience p span:last-child {
+  font-weight: normal;
+}
+
+#experience ul li:before {
+  content: "• ";
+}
+
 ul {
   list-style: none;
   padding: 0;
+}
+
+#skills ul.left li:before {
+  content: "• ";
+}
+
+#skills ul.right li:before {
+  content: "• ";
+}
+
+#skills ul.left {
+  float: left;
+  width: 50%;
+}
+
+#skills ul.right {
+  float: right;
+  width: 50%;
 }
 
 form label {
