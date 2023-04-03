@@ -119,6 +119,9 @@ ul {
   content: "• ";
 }
 
+#skills ul {
+  margin: 0;
+}
 #skills ul.left,
 #skills ul.right {
   float: none;
