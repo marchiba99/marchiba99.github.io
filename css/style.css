@@ -7,11 +7,63 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 10px 20px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 53vw;
+}
+
+header img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+header h1 {
+  font-family: "Fire code";
+  font-size: 4em;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+header h2 {
+  line-height: 0;
+}
+
+.l1 {
+  margin-bottom: 10%;
+}
+.l3 {
+  margin-bottom: 20%;
+}
+
+.circle-img {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: auto;
+  height: 30%;
+  object-fit: cover;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.circle-img img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 nav ul {
