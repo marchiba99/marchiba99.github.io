@@ -176,6 +176,7 @@ form textarea {
 
 iframe {
   width: 100%;
+  height: 38vw;
   display: block;
   margin: 0 auto;
   border: none;
