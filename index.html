@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/link.js"></script>
+    <script src="js/translations.js"></script>
     <title>Portfolio - Marc Hidalgo</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 772px)">
   </head>
-  <body>
+  <body onload="aplicarTraducciones()">
     <header>
       <img src="img/header.jpeg" alt="Logo_header">
       <div class="header-container">
-        <h1>HOLA!</h1>
+        <h1 id="hola">HOLA!</h1>
         <h2 class="l1">Soy Marc Hidalgo</h2>
         <h2 class="l2">Graduado en ingenieria telemática</h2>
         <h2 class="l3">y programador full-stack</h2>
