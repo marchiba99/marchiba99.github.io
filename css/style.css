@@ -125,24 +125,29 @@ section h2 {
   margin-top: 0;
 }
 
-#studies p {
+
+#studies_p1 {
   font-weight: bold;
-  margin-bottom: 5px;
+}
+#studies_p2 {
+  font-size: 0.9em;
+  margin-top: -10px;
 }
 
-#studies p span {
-  font-weight: normal;
-}
-
-#experience p span:first-child {
+#experience_p1 {
   font-weight: bold;
-  margin-bottom: 5px;
 }
-
-#experience p span:last-child {
-  font-weight: normal;
+#experience_p2 {
+  font-size: 0.9em;
+  margin-top: -10px;
 }
-
+#experience_p3 {
+  font-weight: bold;
+}
+#experience_p4 {
+  font-size: 0.9em;
+  margin-top: -10px;
+}
 #experience ul li:before {
   content: "• ";
 }
